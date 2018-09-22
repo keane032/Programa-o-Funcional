@@ -1,0 +1,1 @@
+somaQuadrados x = if (x > 0) then (x*x) + somaQuadrados (x-1) else 0

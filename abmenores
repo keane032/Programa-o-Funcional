@@ -1,0 +1,3 @@
+divisores n = [x | x<-[1..n-1], n`mod`x==0]
+abundante n = if (sum (divisores n) > n) then True else False
+abundantesMenores n = [ x | x <- [0..n] ,abundante x == True]

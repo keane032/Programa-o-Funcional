@@ -1,0 +1,2 @@
+remove x [] = []
+remove x (y:ys) | x == y =  drop 1 (y:ys) | otherwise =  y : remove x ys

@@ -1,0 +1,2 @@
+import Data.Char
+capitalises xs = [ toUpper a | a<-xs]

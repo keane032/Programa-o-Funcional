@@ -1,0 +1,4 @@
+final y (x) = drop (length x - y) x
+
+
+ let final y (x) = drop  p x  where p = length x - y

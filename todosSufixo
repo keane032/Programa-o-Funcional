@@ -1,0 +1,1 @@
+todosSufixos xs = [drop (length xs-n) xs | n <- [0..length xs]]

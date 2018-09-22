@@ -1,0 +1,2 @@
+pares xs = zip xs (tail xs)
+somaConsecutivos lista = [ a+b | (a,b) <- pares lista]

@@ -1,0 +1,3 @@
+inserir x [] = x:[]
+inserir x (y:ys) | x > y = y : inserir x ys | otherwise = x:(y:ys)
+

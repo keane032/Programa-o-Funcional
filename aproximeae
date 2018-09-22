@@ -1,0 +1,3 @@
+fact n = product [1..n] 
+let aproximae n = foldl (\z x-> (1/(fromIntegral (fact x))) + z) 0 [0..n]
+

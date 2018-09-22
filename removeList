@@ -1,0 +1,1 @@
+remove xs ys = foldr (\x zs-> if elem x xs then zs else x:zs) [] ys

@@ -1,0 +1,2 @@
+segmento x y (z) = drop (x-1) (take (y) z)
+segmento x y zs = drop (x-1) (take (y) zs)

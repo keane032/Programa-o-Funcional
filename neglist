@@ -1,0 +1,3 @@
+neglist (b) = if (length b > 0  && head b < 0) then 1 + neglist(tail b) else if(length b > 0) then neglist(tail b) else 0
+
+
